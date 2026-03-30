@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>统计分析报表</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    @*<script src="https://cdn.staticfile.org/echarts/5.4.3/echarts.min.js"></script>*@
+    <script src="~/Scripts/echarts.min.js"></script>
+    <style>
+        .chart-container {
+            width: 800px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center">销售趋势分析</h2>
+    <div id="lineChart" class="chart-container"></div>
+
+    <h2 style="text-align:center">产品销售占比</h2>
+    <div id="pieChart" class="chart-container"></div>
+
+    <script>
+        $(function () {
+            // 加载折线图数据
+            $.ajax({
+                url: '/api/statistics/sales',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var lineChart = echarts.init(document.getElementById('lineChart'));
+                    lineChart.setOption({
+                        title: { text: '月度销售额' },
+                        tooltip: { trigger: 'axis' },
+                        xAxis: { type: 'category', data: data.Categories },
+                        yAxis: { type: 'value', name: '销售额(万元)' },
+                        series: [{
+                            name: '销售额',
+                            type: 'line',
+                            data: data.Amounts,
+                            smooth: true
+                        }]
+                    });
+                },
+                error: function () {
+                    alert('获取折线图数据失败');
+                }
+            });
+
+            // 加载饼图数据
+            $.ajax({
+                url: '/api/statistics/pie',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var pieChart = echarts.init(document.getElementById('pieChart'));
+                    pieChart.setOption({
+                        title: { text: '产品销量占比' },
+                        tooltip: { trigger: 'item' },
+                        legend: { orient: 'vertical', left: 'left' },
+                        series: [{
+                            name: '销量',
+                            type: 'pie',
+                            radius: '50%',
+                            data: data.map(item => ({ name: item.Name, value: item.Value })),
+                            emphasis: { scale: true }
+                        }]
+                    });
+                },
+                error: function () {
+                    alert('获取饼图数据失败');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

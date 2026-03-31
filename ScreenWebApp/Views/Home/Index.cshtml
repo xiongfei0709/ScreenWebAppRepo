@@ -79,7 +79,7 @@
             margin: 0 auto;
             position: relative;
             z-index: 1;
-            padding: 0px 20px 30px 20px; /* 上 右 下 左 */
+            padding: 0px 20px 30px 20px;
         }
 
         /* 顶部信息栏 - 使用 Grid 布局实现标题居中 */
@@ -98,24 +98,25 @@
             flex-shrink: 0;
         }
 
-        .info-left .date-time {
+        /* 左侧：医院信息 */
+        .hospital-info {
             display: flex;
-            flex-direction: column;
+            align-items: center;
+            gap: 12px;
         }
 
-        .info-left .date {
-            font-size: 14px;
-            color: #cce6ff;
-            letter-spacing: 1px;
+        .logo {
+            height: 40px;
+            width: auto;
+            filter: drop-shadow(0 0 4px rgba(64,158,255,0.5));
         }
 
-        .info-left .time {
-            font-size: 28px;
+        .hospital-name {
+            font-size: 18px;
             font-weight: bold;
-            color: #fff;
-            line-height: 1.2;
-            font-family: monospace;
-            text-shadow: 0 0 10px #409eff;
+            color: #e6f7ff;
+            letter-spacing: 1px;
+            text-shadow: 0 0 6px #409eff;
         }
 
         /* 居中标题样式 */
@@ -128,12 +129,13 @@
             white-space: nowrap;
         }
 
+        /* 右侧指标区域 */
         .info-middle {
             display: grid;
             grid-template-columns: repeat(3, auto);
             gap: 20px;
             align-items: center;
-            justify-self: end; /* 使整个容器在父网格中右对齐，保持原有布局 */
+            justify-self: end;
         }
 
         .info-item {
@@ -144,6 +146,27 @@
             padding: 4px 14px;
             border-radius: 40px;
             border: 1px solid rgba(64, 158, 255, 0.4);
+        }
+
+        /* 日期+系统状态 特殊卡片（垂直布局） */
+        .info-middle .date-time {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-middle .date {
+            font-size: 14px;
+            color: #cce6ff;
+            letter-spacing: 1px;
+        }
+
+        .info-middle .time {
+            font-size: 28px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 1.2;
+            font-family: monospace;
+            text-shadow: 0 0 10px #409eff;
         }
 
         .info-label {
@@ -169,29 +192,22 @@
 
         .status-error {
             color: #ff0000;
-            text-shadow: 0 0 5px #67c23a;
+            text-shadow: 0 0 5px #ff0000;
         }
 
         .status-warning {
             color: #ffd800;
-            text-shadow: 0 0 5px #67c23a;
+            text-shadow: 0 0 5px #ffd800;
         }
 
-        /* 主要内容区域（可滚动，但浏览器无滚动条） */
+        /* 主要内容区域（滚动条隐藏） */
         .main-content {
             flex: 1;
             overflow-y: auto;
             padding-right: 4px;
-        }
-
-        .main-content {
-            flex: 1;
-            overflow-y: auto;
-            padding-right: 4px;
-            /* 隐藏滚动条（Firefox） */
             scrollbar-width: none;
         }
-            /* 隐藏滚动条（Chrome/Safari/Edge） */
+
             .main-content::-webkit-scrollbar {
                 display: none;
             }
@@ -309,7 +325,6 @@
             color: #fff;
         }
 
-            /* 床位等级颜色（5级） */
             .bed-item.level-1 {
                 border-left-color: #f56c6c;
                 background: rgba(245, 108, 108, 0.2);
@@ -442,8 +457,7 @@
         }
 
         /* 图表容器透明 */
-        #chartTriage, #chartReg, #chartVisit, #chartRescue,
-        #flowChart, #levelPie, #typeBar, #timeLine {
+        #chartTriage, #chartReg, #chartVisit, #chartRescue {
             background: transparent !important;
         }
 
@@ -520,12 +534,8 @@
                 order: 0;
             }
 
-            .info-left {
-                order: 1;
-            }
-
-            .info-middle {
-                order: 2;
+            .hospital-info {
+                justify-content: center;
             }
         }
 
@@ -535,7 +545,6 @@
             }
         }
 
-        /* 全屏时图表容器样式 */
         /* 全屏时只设置背景和毛玻璃效果，不改变布局 */
         #chartTriage:fullscreen,
         #chartReg:fullscreen,
@@ -560,21 +569,21 @@
             background: radial-gradient(circle at center, #093892, #060c26) !important;
             backdrop-filter: blur(12px);
         }
-
     </style>
 </head>
 <body>
     <div class="dashboard">
-        <!-- 顶部信息栏：左侧日期时间，居中标题，右侧指标 -->
+        <!-- 顶部信息栏：左侧Logo+医院名，中间标题，右侧指标（含日期+系统状态） -->
         <div class="info-bar">
             <div class="info-left">
-                <div class="date-time">
-                    <div class="date" id="currentDate">1997年01月01日</div>
-                    <div class="time" id="currentTime">00:00:01</div>
+                <div class="hospital-info">
+                    <img src="/Content/logo.png" alt="Logo" class="logo">
+                    <span class="hospital-name">宁夏中西医结合医院<br>宁夏第三人民医院</span>
                 </div>
             </div>
             <div class="info-center">急诊预检分诊</div>
             <div class="info-middle">
+                <!-- 日期时间 + 系统状态 组合卡片 -->
                 <div class="info-item">
                     <span class="info-label">急诊饱和度</span>
                     <span class="info-value" id="saturationValue">75%</span>
@@ -584,9 +593,9 @@
                     <span class="info-value" id="todayVisits">120</span>
                     <span class="info-unit">人</span>
                 </div>
-                <div class="info-item">
-                    <span class="info-label">系统状态</span>
-                    <span class="info-value status-normal" id="systemStatus">正常</span>
+                <div class="date-time">
+                    <div class="date" id="currentDate">2024年8月15日</div>
+                    <div class="time" id="currentTime">14:30:00</div>
                 </div>
                 <div class="info-item">
                     <span class="info-label">留抢人数</span>
@@ -597,6 +606,10 @@
                     <span class="info-label">绿通人数</span>
                     <span class="info-value" id="greenPassCount">5</span>
                     <span class="info-unit">人</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">系统状态</span>
+                    <span class="info-value status-normal" id="systemStatus">正常</span>
                 </div>
             </div>
         </div>
@@ -647,12 +660,11 @@
     </div>
 
     <script>
-
         /**
- * 为图表容器启用双击全屏功能
- * @@param {string} chartId 容器ID
- * @@param {Object} chartInstance ECharts实例
- */
+         * 为图表容器启用双击全屏功能
+         * @@param {string} chartId 容器ID
+         * @@param {Object} chartInstance ECharts实例
+         */
         function enableFullscreenOnDoubleClick(chartId, chartInstance) {
             var container = document.getElementById(chartId);
             if (!container) return;
@@ -663,28 +675,17 @@
                 else if (container.msRequestFullscreen) container.msRequestFullscreen();
             });
 
-            // 获取所有图表实例的全局引用（假设已在 renderKPIs 中定义）
             var allCharts = [chartTriage, chartReg, chartVisit, chartRescue];
-
-            // 批量调整所有图表尺寸
             function resizeAllCharts() {
                 allCharts.forEach(function (chart) {
-                    if (chart && typeof chart.resize === 'function') {
-                        chart.resize();
-                    }
+                    if (chart && typeof chart.resize === 'function') chart.resize();
                 });
-                // 可选：手动触发窗口 resize 事件，帮助其他依赖组件
-                if (window.dispatchEvent) {
-                    window.dispatchEvent(new Event('resize'));
-                }
+                if (window.dispatchEvent) window.dispatchEvent(new Event('resize'));
             }
-
             var handleFullscreenChange = function () {
-                // 延迟两次确保浏览器布局完全稳定
                 setTimeout(resizeAllCharts, 50);
                 setTimeout(resizeAllCharts, 150);
             };
-
             document.addEventListener('fullscreenchange', handleFullscreenChange);
             document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
         }
@@ -693,68 +694,65 @@
 
         function renderKPIs() {
             const kpiHtml = `
-                        <div class="card">
-                            <div class="card-header">
-                                <span class="card-title">🏷️ 急诊分诊人次</span>
-                                <div class="btn-group" data-chart="triage">
-                                    <button class="btn-time" data-period="day">日</button>
-                                    <button class="btn-time" data-period="week">周</button>
-                                    <button class="btn-time" data-period="month">月</button>
-                                    <button class="btn-time" data-period="year">年</button>
-                                </div>
-                            </div>
-                            <div id="chartTriage" style="height:200px; width:100%;"></div>
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">🏷️ 急诊分诊人次</span>
+                        <div class="btn-group" data-chart="triage">
+                            <button class="btn-time" data-period="day">日</button>
+                            <button class="btn-time" data-period="week">周</button>
+                            <button class="btn-time" data-period="month">月</button>
+                            <button class="btn-time" data-period="year">年</button>
                         </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <span class="card-title">📋 急诊挂号人次</span>
-                                <div class="btn-group" data-chart="registration">
-                                    <button class="btn-time" data-period="day">日</button>
-                                    <button class="btn-time" data-period="week">周</button>
-                                    <button class="btn-time" data-period="month">月</button>
-                                    <button class="btn-time" data-period="year">年</button>
-                                </div>
-                            </div>
-                            <div id="chartReg" style="height:200px; width:100%;"></div>
+                    </div>
+                    <div id="chartTriage" style="height:200px; width:100%;"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">📋 急诊挂号人次</span>
+                        <div class="btn-group" data-chart="registration">
+                            <button class="btn-time" data-period="day">日</button>
+                            <button class="btn-time" data-period="week">周</button>
+                            <button class="btn-time" data-period="month">月</button>
+                            <button class="btn-time" data-period="year">年</button>
                         </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <span class="card-title">🚑 急诊就诊人次</span>
-                                <div class="btn-group" data-chart="visit">
-                                    <button class="btn-time" data-period="day">日</button>
-                                    <button class="btn-time" data-period="week">周</button>
-                                    <button class="btn-time" data-period="month">月</button>
-                                    <button class="btn-time" data-period="year">年</button>
-                                </div>
-                            </div>
-                            <div id="chartVisit" style="height:200px; width:100%;"></div>
+                    </div>
+                    <div id="chartReg" style="height:200px; width:100%;"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">🚑 急诊就诊人次</span>
+                        <div class="btn-group" data-chart="visit">
+                            <button class="btn-time" data-period="day">日</button>
+                            <button class="btn-time" data-period="week">周</button>
+                            <button class="btn-time" data-period="month">月</button>
+                            <button class="btn-time" data-period="year">年</button>
                         </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <span class="card-title">⚠️ 急诊绿通人次</span>
-                                <div class="btn-group" data-chart="rescue">
-                                    <button class="btn-time" data-period="day">日</button>
-                                    <button class="btn-time" data-period="week">周</button>
-                                    <button class="btn-time" data-period="month">月</button>
-                                    <button class="btn-time" data-period="year">年</button>
-                                </div>
-                            </div>
-                            <div id="chartRescue" style="height:200px; width:100%;"></div>
+                    </div>
+                    <div id="chartVisit" style="height:200px; width:100%;"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">⚠️ 急诊绿通人次</span>
+                        <div class="btn-group" data-chart="rescue">
+                            <button class="btn-time" data-period="day">日</button>
+                            <button class="btn-time" data-period="week">周</button>
+                            <button class="btn-time" data-period="month">月</button>
+                            <button class="btn-time" data-period="year">年</button>
                         </div>
-                    `;
+                    </div>
+                    <div id="chartRescue" style="height:200px; width:100%;"></div>
+                </div>
+            `;
             $('#kpiCards').html(kpiHtml);
 
             chartTriage = echarts.init(document.getElementById('chartTriage'));
             enableFullscreenOnDoubleClick('chartTriage', chartTriage);
-
             chartReg = echarts.init(document.getElementById('chartReg'));
             enableFullscreenOnDoubleClick('chartReg', chartReg);
-
             chartVisit = echarts.init(document.getElementById('chartVisit'));
             enableFullscreenOnDoubleClick('chartVisit', chartVisit);
-
             chartRescue = echarts.init(document.getElementById('chartRescue'));
-            enableFullscreenOnDoubleClick('chartRescue', chartRescue);            
+            enableFullscreenOnDoubleClick('chartRescue', chartRescue);
 
             updateKpiChart('triage', 'day');
             updateKpiChart('registration', 'day');
@@ -773,7 +771,6 @@
             });
         }
 
-        //加载顶部信息
         function LoadTopData() {
             $.ajax({
                 url: '/api/dashboard/info',
@@ -784,12 +781,14 @@
                     $('#todayVisits').text(data.TodayVisits);
                     $('#retentionCount').text(data.RetentionCount);
                     $('#greenPassCount').text(data.GreenPassCount);
+                    // 更新系统状态样式
+                    var statusElem = $('#systemStatus');
                     if (data.SystemStatus === '正常') {
-                        $('#systemStatus').removeClass('status-warning status-error').addClass('status-normal');
+                        statusElem.removeClass('status-warning status-error').addClass('status-normal');
                     } else if (data.SystemStatus === '警告') {
-                        $('#systemStatus').removeClass('status-normal status-error').addClass('status-warning');
+                        statusElem.removeClass('status-normal status-error').addClass('status-warning');
                     } else {
-                        $('#systemStatus').removeClass('status-normal status-warning').addClass('status-error');
+                        statusElem.removeClass('status-normal status-warning').addClass('status-error');
                     }
                 },
                 error: function () {
@@ -812,7 +811,6 @@
                     };
                     var chart = chartMap[type];
                     if (!chart) return;
-
                     chart.setOption({
                         tooltip: { trigger: 'axis' },
                         xAxis: { type: 'category', data: data.Categories, name: getPeriodName(period) },
@@ -874,28 +872,6 @@
             });
         }
 
-        // 数据初始化加载
-        //function Init() {
-        //    $.ajax({
-        //        url: '/api/dashboard/init',
-        //        type: 'GET',
-        //        success: function (data) {
-        //            if (data.SystemStatus === '正常') {
-        //                $('#systemStatus').removeClass('status-warning status-error').addClass('status-normal');
-        //            } else if (data.SystemStatus === '警告') {
-        //                $('#systemStatus').removeClass('status-normal status-error').addClass('status-warning');
-        //            } else {
-        //                console.error('请检查数据库连接和配置文本！');
-        //                $('#systemStatus').removeClass('status-normal status-warning').addClass('status-error');
-        //            }
-        //        },
-        //        error: function () {
-        //            console.error('数据初始化加载失败');
-        //        }
-        //    });
-        //}
-
-        // 加载底部温馨提示
         function LoadBottomInfo() {
             $.ajax({
                 url: '/api/dashboard/notice',
@@ -905,29 +881,25 @@
                 },
                 error: function () {
                     console.error('加载温馨提示失败，使用默认文本');
-                    // 可选：降级方案，保持原有静态文本
-                    // 如果希望降级，可以在这里设置默认文本，但原有静态文本已存在，所以不需要额外操作
                 }
             });
         }
 
+        // 更新紧凑型日期时间（月日 时:分:秒）
         function updateDateTime() {
             const now = new Date();
             $('#currentDate').text(`${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日`);
             $('#currentTime').text(`${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`);
         }
 
-        //动态刷新业务数据
+        // 自动刷新业务数据
         let autoRefreshTimer1 = null;
         let autoRefreshTimer2 = null;
         function startAutoRefresh(intervalSeconds = 30) {
             if (autoRefreshTimer2) clearInterval(autoRefreshTimer2);
             autoRefreshTimer2 = setInterval(function () {
-                // 刷新顶部信息
-                $.ajax({ url: '/api/dashboard/info', success: LoadTopData });
-                // 刷新床位
-                $.ajax({ url: '/api/dashboard/beds', success: renderBeds });
-                // 刷新当前显示的图表（保留当前激活的周期）
+                LoadTopData();
+                renderBeds();
                 $('.btn-group[data-chart]').each(function () {
                     var chartType = $(this).data('chart');
                     var activePeriod = $(this).find('.btn-time.active').data('period') || 'day';
@@ -943,19 +915,13 @@
             renderBeds();
             LoadBottomInfo();
 
-            // 页面加载后启动定时器
             if (autoRefreshTimer1) clearInterval(autoRefreshTimer1);
             autoRefreshTimer1 = setInterval(updateDateTime, 1000);
             startAutoRefresh(3);
 
-            // 页面关闭前清除定时器
             $(window).on('beforeunload', function () {
-                if (autoRefreshTimer1) {
-                    clearInterval(autoRefreshTimer1);
-                }
-                if (autoRefreshTimer2) {
-                    clearInterval(autoRefreshTimer2);
-                }
+                if (autoRefreshTimer1) clearInterval(autoRefreshTimer1);
+                if (autoRefreshTimer2) clearInterval(autoRefreshTimer2);
             });
         });
     </script>

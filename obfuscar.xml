@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<Obfuscator>
+  <!-- 定义常用路径变量 -->
+  <Var name="InPath" value=".\ScreenWebApp\bin" />
+  <Var name="OutPath" value=".\Obfuscated_Output" />
+
+  <!-- 全局选项 -->
+  <KeepPublicApi value="false" />      <!-- 不保留公共 API，全部重命名（除非显式排除） -->
+  <HidePrivateApi value="true" />      <!-- 隐藏私有 API -->
+  <MarkedOnly value="false" />         <!-- 混淆所有成员，而非仅标记的 -->
+  <StringEncryption value="true" />    <!-- 开启字符串加密 -->
+  <ControlFlow value="true" />         <!-- 开启控制流混淆 -->
+  <Rename value="true" />              <!-- 开启重命名 -->
+  <Resources value="true" />           <!-- 处理资源文件中的名称 -->
+
+  <!-- 要混淆的程序集 -->
+  <Module file="$(InPath)\ScreenWebApp.dll" />
+
+  <!-- 排除系统程序集（避免混淆 .NET 自身类型） -->
+  <SkipType name="System.*" />
+  <SkipType name="Microsoft.*" />
+
+  <!-- 排除特定类型（例如配置类、需要反射的类） -->
+  <SkipType name="MyApp.Config.Settings" />
+  <SkipType name="MyApp.Helpers.ReflectionHelper" />
+
+  <!-- 排除特定方法（例如入口点、需要反射调用的方法） -->
+  <SkipMethod name="MyApp.Program::Main(System.String[])" />
+  <SkipMethod name="MyApp.Controllers.HomeController::*" />  <!-- 通配符：排除该类的所有方法 -->
+
+  <!-- 排除特定字段（例如序列化相关字段） -->
+  <SkipField name="MyApp.Models.User::_id" />
+</Obfuscator>

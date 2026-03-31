@@ -1,0 +1,1099 @@
+Renamed Types:
+
+[ScreenWebApp]<>f__AnonymousType0`3 -> [ScreenWebApp]A.A`3
+{
+	[ScreenWebApp]<>f__AnonymousType0`3::get_controller[0]( ) -> A
+	[ScreenWebApp]<>f__AnonymousType0`3::get_action[0]( ) -> a
+	[ScreenWebApp]<>f__AnonymousType0`3::get_id[0]( ) -> B
+
+	[ScreenWebApp]<>f__AnonymousType0`3::.ctor[3]( !0, !1, !2 ) skipped:  special name
+	[ScreenWebApp]<>f__AnonymousType0`3::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType0`3::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType0`3::ToString[0]( ) skipped:  external base class or interface
+
+	<controller>j__TPar [ScreenWebApp]<controller>j__TPar <>f__AnonymousType0`3::<controller>i__Field -> A
+	<action>j__TPar [ScreenWebApp]<action>j__TPar <>f__AnonymousType0`3::<action>i__Field -> A
+	<id>j__TPar [ScreenWebApp]<id>j__TPar <>f__AnonymousType0`3::<id>i__Field -> A
+
+	A [ScreenWebApp]A <>f__AnonymousType0`3::controller -> dropped
+	a [ScreenWebApp]a <>f__AnonymousType0`3::action -> dropped
+	B [ScreenWebApp]B <>f__AnonymousType0`3::id -> dropped
+}
+
+[ScreenWebApp]<>f__AnonymousType1`1 -> [ScreenWebApp]A.a`1
+{
+	[ScreenWebApp]<>f__AnonymousType1`1::get_id[0]( ) -> A
+
+	[ScreenWebApp]<>f__AnonymousType1`1::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType1`1::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType1`1::ToString[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType1`1::.ctor[1]( !0 ) skipped:  special name
+
+	<id>j__TPar [ScreenWebApp]<id>j__TPar <>f__AnonymousType1`1::<id>i__Field -> A
+
+	A [ScreenWebApp]A <>f__AnonymousType1`1::id -> dropped
+}
+
+[ScreenWebApp]<>f__AnonymousType2`3 -> [ScreenWebApp]A.B`3
+{
+	[ScreenWebApp]<>f__AnonymousType2`3::get_controller[0]( ) -> A
+	[ScreenWebApp]<>f__AnonymousType2`3::get_action[0]( ) -> a
+	[ScreenWebApp]<>f__AnonymousType2`3::get_apiId[0]( ) -> B
+
+	[ScreenWebApp]<>f__AnonymousType2`3::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType2`3::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType2`3::ToString[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]<>f__AnonymousType2`3::.ctor[3]( !0, !1, !2 ) skipped:  special name
+
+	<controller>j__TPar [ScreenWebApp]<controller>j__TPar <>f__AnonymousType2`3::<controller>i__Field -> A
+	<action>j__TPar [ScreenWebApp]<action>j__TPar <>f__AnonymousType2`3::<action>i__Field -> A
+	<apiId>j__TPar [ScreenWebApp]<apiId>j__TPar <>f__AnonymousType2`3::<apiId>i__Field -> A
+
+	A [ScreenWebApp]A <>f__AnonymousType2`3::controller -> dropped
+	a [ScreenWebApp]a <>f__AnonymousType2`3::action -> dropped
+	B [ScreenWebApp]B <>f__AnonymousType2`3::apiId -> dropped
+}
+
+[ScreenWebApp]ScreenWebApp.Conmmon.EnumMode -> [ScreenWebApp]A.b
+{
+	ScreenWebApp.Conmmon.EnumMode [ScreenWebApp]ScreenWebApp.Conmmon.EnumMode ScreenWebApp.Conmmon.EnumMode::Debug -> A
+	ScreenWebApp.Conmmon.EnumMode [ScreenWebApp]ScreenWebApp.Conmmon.EnumMode ScreenWebApp.Conmmon.EnumMode::Demo -> a
+	ScreenWebApp.Conmmon.EnumMode [ScreenWebApp]ScreenWebApp.Conmmon.EnumMode ScreenWebApp.Conmmon.EnumMode::Product -> B
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Conmmon.EnumMode::value__ skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Controllers.HomeController/<>o__0 -> [ScreenWebApp]ScreenWebApp.Controllers.HomeController/A
+{
+	System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.String,System.Object>> [ScreenWebApp]System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.String,System.Object>> ScreenWebApp.Controllers.HomeController/<>o__0::<>p__0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::<GetHelpPageSampleGenerator>b__13_0[1]( [mscorlib]System.Object ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::<TryGetResourceParameter>b__24_0[1]( [System.Web.Http]System.Web.Http.Description.ApiParameterDescription ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::<>9 -> A
+	System.Func`2<System.Object,System.Object> [ScreenWebApp]System.Func`2<System.Object,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::<>9__13_0 -> A
+	System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.Boolean> [ScreenWebApp]System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.Boolean> ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c::<>9__24_0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass14_0 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/a
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass14_0::<SetHelpPageSampleGenerator>b__0[1]( [mscorlib]System.Object ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass14_0::<SetHelpPageSampleGenerator>b__1[2]( [mscorlib]System.Object, [mscorlib]System.Object ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass14_0::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass14_0::sampleGenerator -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass15_0 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/B
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass15_0::<GetModelDescriptionGenerator>b__0[1]( [mscorlib]System.Object ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass15_0::.ctor[0]( ) skipped:  special name
+
+	System.Web.Http.HttpConfiguration [ScreenWebApp]System.Web.Http.HttpConfiguration ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass15_0::config -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass16_0 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/b
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass16_0::<GetHelpPageApiModel>b__0[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass16_0::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions/<>c__DisplayClass16_0::apiDescriptionId -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<GetSample>b__19_0[1]( [System.Web.Http]System.Web.Http.Description.ApiParameterDescription ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<ResolveHttpRequestMessageType>b__22_0[1]( [System.Web.Http]System.Web.Http.Description.ApiParameterDescription ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<ResolveType>b__23_0[1]( [System.Web.Http]System.Web.Http.Description.ApiParameterDescription ) -> B
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<>9 -> A
+	System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.String> [ScreenWebApp]System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<>9__19_0 -> A
+	System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.String> [ScreenWebApp]System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<>9__22_0 -> a
+	System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.Boolean> [ScreenWebApp]System.Func`2<System.Web.Http.Description.ApiParameterDescription,System.Boolean> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<>c::<>9__23_0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/a
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.IDisposable.Dispose[0]( ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>m__Finally1[0]( ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object>>.get_Current[0]( ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.IEnumerator.Reset[0]( ) -> b
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.IEnumerator.get_Current[0]( ) -> C
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object>>.GetEnumerator[0]( ) -> c
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.IEnumerable.GetEnumerator[0]( ) -> D
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::.ctor[1]( [mscorlib]System.Int32 ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::MoveNext[0]( ) skipped:  external base class or interface
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>1__state -> A
+	System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> [ScreenWebApp]System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>2__current -> A
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>l__initialThreadId -> a
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::controllerName -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>3__controllerName -> a
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::actionName -> B
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>3__actionName -> b
+	System.Collections.Generic.IEnumerable`1<System.String> [ScreenWebApp]System.Collections.Generic.IEnumerable`1<System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::parameterNames -> A
+	System.Collections.Generic.IEnumerable`1<System.String> [ScreenWebApp]System.Collections.Generic.IEnumerable`1<System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>3__parameterNames -> a
+	ScreenWebApp.Areas.HelpPage.SampleDirection [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::sampleDirection -> A
+	ScreenWebApp.Areas.HelpPage.SampleDirection [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>3__sampleDirection -> a
+	ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>4__this -> A
+	System.Collections.Generic.HashSet`1<System.String> [ScreenWebApp]System.Collections.Generic.HashSet`1<System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<parameterNamesSet>5__1 -> A
+	System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object>> [ScreenWebApp]System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object>> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<>s__2 -> A
+	System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> [ScreenWebApp]System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<sample>5__3 -> a
+	ScreenWebApp.Areas.HelpPage.HelpPageSampleKey [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::<sampleKey>5__4 -> A
+
+	System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> [ScreenWebApp]System.Collections.Generic.KeyValuePair`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object>>.Current -> dropped
+	System.Object [ScreenWebApp]System.Object ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator/<GetAllActionSamples>d__30::System.Collections.IEnumerator.Current -> dropped
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::InitializeGenerators[0]( ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::CanGenerateObject[1]( [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::GenerateObject[1]( [mscorlib]System.Type ) -> a
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::.cctor[0]( ) skipped:  special name
+
+	System.Int64 [ScreenWebApp]System.Int64 ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::_index -> A
+	System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<System.Int64,System.Object>> [ScreenWebApp]System.Collections.Generic.Dictionary`2<System.Type,System.Func`2<System.Int64,System.Object>> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator::DefaultGenerators -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_1[1]( [mscorlib]System.Object ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_2[1]( [mscorlib]System.Object ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_3[1]( [mscorlib]System.Object ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_4[1]( [mscorlib]System.Object ) -> b
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_5[1]( [mscorlib]System.Object ) -> C
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_6[1]( [mscorlib]System.Object ) -> c
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<.ctor>b__3_7[1]( [mscorlib]System.Object ) -> D
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<GenerateAnnotations>b__14_0[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9 -> A
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_1 -> A
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_2 -> a
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_3 -> B
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_4 -> b
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_5 -> C
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_6 -> c
+	System.Func`2<System.Object,System.String> [ScreenWebApp]System.Func`2<System.Object,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__3_7 -> D
+	System.Comparison`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> [ScreenWebApp]System.Comparison`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c::<>9__14_0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c__DisplayClass3_0 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/a
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c__DisplayClass3_0::<.ctor>b__0[0]( ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c__DisplayClass3_0::.ctor[0]( ) skipped:  special name
+
+	System.Web.Http.HttpConfiguration [ScreenWebApp]System.Web.Http.HttpConfiguration ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator/<>c__DisplayClass3_0::config -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c -> [ScreenWebApp]A.C/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c::<GetModelName>b__0_0[1]( [mscorlib]System.Type ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c::<>9 -> A
+	System.Func`2<System.Type,System.String> [ScreenWebApp]System.Func`2<System.Type,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper/<>c::<>9__0_0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController/<>o__7 -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController/A
+{
+	System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.Web.Http.Description.IDocumentationProvider,System.Object>> [ScreenWebApp]System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.Web.Http.Description.IDocumentationProvider,System.Object>> ScreenWebApp.Areas.HelpPage.Controllers.HelpController/<>o__7::<>p__0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/A/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_0[1]( [mscorlib]System.Int64 ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_1[1]( [mscorlib]System.Int64 ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_2[1]( [mscorlib]System.Int64 ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_3[1]( [mscorlib]System.Int64 ) -> b
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_4[1]( [mscorlib]System.Int64 ) -> C
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_5[1]( [mscorlib]System.Int64 ) -> c
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_6[1]( [mscorlib]System.Int64 ) -> D
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_7[1]( [mscorlib]System.Int64 ) -> d
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_8[1]( [mscorlib]System.Int64 ) -> E
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_9[1]( [mscorlib]System.Int64 ) -> e
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_10[1]( [mscorlib]System.Int64 ) -> F
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_11[1]( [mscorlib]System.Int64 ) -> f
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_12[1]( [mscorlib]System.Int64 ) -> G
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_13[1]( [mscorlib]System.Int64 ) -> g
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_14[1]( [mscorlib]System.Int64 ) -> H
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_15[1]( [mscorlib]System.Int64 ) -> h
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_16[1]( [mscorlib]System.Int64 ) -> I
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_17[1]( [mscorlib]System.Int64 ) -> i
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_18[1]( [mscorlib]System.Int64 ) -> J
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_19[1]( [mscorlib]System.Int64 ) -> j
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<InitializeGenerators>b__2_20[1]( [mscorlib]System.Int64 ) -> K
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9 -> A
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_0 -> A
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_1 -> a
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_2 -> B
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_3 -> b
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_4 -> C
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_5 -> c
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_6 -> D
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_7 -> d
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_8 -> E
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_9 -> e
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_10 -> F
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_11 -> f
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_12 -> G
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_13 -> g
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_14 -> H
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_15 -> h
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_16 -> I
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_17 -> i
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_18 -> J
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_19 -> j
+	System.Func`2<System.Int64,System.Object> [ScreenWebApp]System.Func`2<System.Int64,System.Object> ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator/<>c::<>9__2_20 -> K
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c -> [ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/A
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::<GetMemberName>b__14_0[1]( [mscorlib]System.Reflection.ParameterInfo ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::<GetTypeName>b__17_0[1]( [mscorlib]System.Type ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::.cctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c [ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::<>9 -> A
+	System.Func`2<System.Reflection.ParameterInfo,System.String> [ScreenWebApp]System.Func`2<System.Reflection.ParameterInfo,System.String> ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::<>9__14_0 -> A
+	System.Func`2<System.Type,System.String> [ScreenWebApp]System.Func`2<System.Type,System.String> ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider/<>c::<>9__17_0 -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper -> [ScreenWebApp]A.C
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameHelper::GetModelName[1]( [mscorlib]System.Type ) -> A
+}
+
+Skipped Types:
+
+[ScreenWebApp]ScreenWebApp.Models.DashboardInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::get_Saturation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::set_Saturation[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::get_SystemStatus[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::set_SystemStatus[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::get_TodayVisits[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::set_TodayVisits[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::get_RetentionCount[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::set_RetentionCount[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::get_GreenPassCount[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::set_GreenPassCount[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.DashboardInfo::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::<Saturation>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.DashboardInfo::<SystemStatus>k__BackingField -> A
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::<TodayVisits>k__BackingField -> a
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::<RetentionCount>k__BackingField -> B
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::<GreenPassCount>k__BackingField -> b
+
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::Saturation skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.DashboardInfo::SystemStatus skipped:  KeepPublicApi option in configuration
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::TodayVisits skipped:  KeepPublicApi option in configuration
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::RetentionCount skipped:  KeepPublicApi option in configuration
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.DashboardInfo::GreenPassCount skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.TrendData skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.TrendData::get_Categories[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.TrendData::set_Categories[1]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.String> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.TrendData::get_Values[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.TrendData::set_Values[1]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.Decimal> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.TrendData::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<System.String> [ScreenWebApp]System.Collections.Generic.List`1<System.String> ScreenWebApp.Models.TrendData::<Categories>k__BackingField -> A
+	System.Collections.Generic.List`1<System.Decimal> [ScreenWebApp]System.Collections.Generic.List`1<System.Decimal> ScreenWebApp.Models.TrendData::<Values>k__BackingField -> A
+
+
+	System.Collections.Generic.List`1<System.String> [ScreenWebApp]System.Collections.Generic.List`1<System.String> ScreenWebApp.Models.TrendData::Categories skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.List`1<System.Decimal> [ScreenWebApp]System.Collections.Generic.List`1<System.Decimal> ScreenWebApp.Models.TrendData::Values skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.BedInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.BedInfo::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedInfo::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedInfo::get_Level[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedInfo::set_Level[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedInfo::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.BedInfo::<Name>k__BackingField -> A
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.BedInfo::<Level>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.BedInfo::Name skipped:  KeepPublicApi option in configuration
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.BedInfo::Level skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.BedStatusData skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.BedStatusData::get_RescueBeds[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedStatusData::set_RescueBeds[1]( [mscorlib]System.Collections.Generic.List`1<[ScreenWebApp]ScreenWebApp.Models.BedInfo> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedStatusData::get_ObservationBeds[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedStatusData::set_ObservationBeds[1]( [mscorlib]System.Collections.Generic.List`1<[ScreenWebApp]ScreenWebApp.Models.BedInfo> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.BedStatusData::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> [ScreenWebApp]System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> ScreenWebApp.Models.BedStatusData::<RescueBeds>k__BackingField -> A
+	System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> [ScreenWebApp]System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> ScreenWebApp.Models.BedStatusData::<ObservationBeds>k__BackingField -> a
+
+
+	System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> [ScreenWebApp]System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> ScreenWebApp.Models.BedStatusData::RescueBeds skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> [ScreenWebApp]System.Collections.Generic.List`1<ScreenWebApp.Models.BedInfo> ScreenWebApp.Models.BedStatusData::ObservationBeds skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.NoticeData skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.NoticeData::get_Message[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.NoticeData::set_Message[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.NoticeData::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.NoticeData::<Message>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.NoticeData::Message skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.SalesData skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.SalesData::get_Categories[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.SalesData::set_Categories[1]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.String> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.SalesData::get_Amounts[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.SalesData::set_Amounts[1]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.Decimal> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.SalesData::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<System.String> [ScreenWebApp]System.Collections.Generic.List`1<System.String> ScreenWebApp.Models.SalesData::<Categories>k__BackingField -> A
+	System.Collections.Generic.List`1<System.Decimal> [ScreenWebApp]System.Collections.Generic.List`1<System.Decimal> ScreenWebApp.Models.SalesData::<Amounts>k__BackingField -> A
+
+
+	System.Collections.Generic.List`1<System.String> [ScreenWebApp]System.Collections.Generic.List`1<System.String> ScreenWebApp.Models.SalesData::Categories skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.List`1<System.Decimal> [ScreenWebApp]System.Collections.Generic.List`1<System.Decimal> ScreenWebApp.Models.SalesData::Amounts skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Models.PieData skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Models.PieData::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.PieData::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.PieData::get_Value[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.PieData::set_Value[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Models.PieData::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.PieData::<Name>k__BackingField -> A
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.PieData::<Value>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Models.PieData::Name skipped:  KeepPublicApi option in configuration
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Models.PieData::Value skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Controllers.DashboardController skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::Init[0]( ) -> A
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetMockTrendData[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetMockRescueBeds[0]( ) -> a
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetMockObservationBeds[0]( ) -> B
+
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::get_CurrentDt[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::set_CurrentDt[1]( [mscorlib]System.DateTime ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetInfo[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetTrend[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetBeds[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::GetNotice[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.DashboardController::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Conmmon.DbContext [ScreenWebApp]ScreenWebApp.Conmmon.DbContext ScreenWebApp.Controllers.DashboardController::_dbContext -> A
+	System.DateTime [ScreenWebApp]System.DateTime ScreenWebApp.Controllers.DashboardController::_currentDt -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Controllers.DashboardController::_mode -> A
+	ScreenWebApp.Conmmon.EnumMode [ScreenWebApp]ScreenWebApp.Conmmon.EnumMode ScreenWebApp.Controllers.DashboardController::_enumMode -> A
+
+
+	System.DateTime [ScreenWebApp]System.DateTime ScreenWebApp.Controllers.DashboardController::CurrentDt skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::PrepareCommand[5]( [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleCommand, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleConnection, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleTransaction, [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) -> A
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::BuildQueryCommand[3]( [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleConnection, [mscorlib]System.String, [System.Data]System.Data.IDataParameter[] ) -> A
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::BuildIntCommand[3]( [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleConnection, [mscorlib]System.String, [System.Data]System.Data.IDataParameter[] ) -> a
+
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::GetMaxID[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::Exists[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::Exists[2]( [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSql[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSqlTran[1]( [mscorlib]System.Collections.ArrayList ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSql[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSqlInsertImg[2]( [mscorlib]System.String, [mscorlib]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::GetSingle[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteReader[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::Query[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSql[2]( [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteSqlTran[1]( [mscorlib]System.Collections.Hashtable ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::GetSingle[2]( [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::ExecuteReader[2]( [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::Query[2]( [mscorlib]System.String, [Oracle.ManagedDataAccess]Oracle.ManagedDataAccess.Client.OracleParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::RunProcedure[2]( [mscorlib]System.String, [System.Data]System.Data.IDataParameter[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::RunProcedure[3]( [mscorlib]System.String, [System.Data]System.Data.IDataParameter[], [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::RunProcedure[3]( [mscorlib]System.String, [System.Data]System.Data.IDataParameter[], [mscorlib]System.Int32& ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbHelperOra::.cctor[0]( ) skipped:  special name
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.DbHelperOra::connectionString skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Conmmon.Function skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::get_serviceUrl[0]( ) -> A
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::get_key[0]( ) -> a
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::get_algo[0]( ) -> B
+
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::get_Setting[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::set_Setting[1]( [Microsoft.Extensions.Configuration.Abstractions]Microsoft.Extensions.Configuration.IConfigurationRoot ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::get_accessToken[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::set_accessToken[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::ReadConfig[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::ContainProperty[2]( [mscorlib]System.Object, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::GetObjectPropertyValue[2]( !0, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::GetObjectProperty[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::Config[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::GetSettings[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::WriteLog[1]( [mscorlib]System.Object ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Conmmon.Function::.cctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::Description -> A
+	Microsoft.Extensions.Configuration.IConfigurationRoot [ScreenWebApp]Microsoft.Extensions.Configuration.IConfigurationRoot ScreenWebApp.Conmmon.Function::setting -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::<accessToken>k__BackingField -> a
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::serviceUrl -> dropped
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::key -> dropped
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::algo -> dropped
+
+	Microsoft.Extensions.Configuration.IConfigurationRoot [ScreenWebApp]Microsoft.Extensions.Configuration.IConfigurationRoot ScreenWebApp.Conmmon.Function::Setting skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.Function::accessToken skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Conmmon.ManLog skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::newLog[0]( ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::get_FileName[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::set_FileName[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Conmmon.ManLog::WriteLog[1]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.String> ) skipped:  KeepPublicApi option in configuration
+
+	System.IO.TextWriter [ScreenWebApp]System.IO.TextWriter ScreenWebApp.Conmmon.ManLog::output -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.ManLog::strFileName -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Conmmon.ManLog::FileName skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GenerateApiModel[2]( [System.Web.Http]System.Web.Http.Description.ApiDescription, [System.Web.Http]System.Web.Http.HttpConfiguration ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GenerateUriParameters[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::IsBindableWithTypeConverter[1]( [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::AddParameterDescription[3]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [System.Web.Http]System.Web.Http.Description.ApiParameterDescription, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GenerateRequestModelDescription[3]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GenerateResourceDescription[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GenerateSamples[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::TryGetResourceParameter[4]( [System.Web.Http]System.Web.Http.Description.ApiDescription, [System.Web.Http]System.Web.Http.HttpConfiguration, [System.Web.Http]System.Web.Http.Description.ApiParameterDescription&, [mscorlib]System.Type& ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::InitializeModelDescriptionGenerator[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::LogInvalidSampleAsError[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel, [mscorlib]System.Object ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetDocumentationProvider[2]( [System.Web.Http]System.Web.Http.HttpConfiguration, [System.Web.Http]System.Web.Http.Description.IDocumentationProvider ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleObjects[2]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Collections.Generic.IDictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleRequest[5]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleRequest[6]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleResponse[5]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleResponse[6]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleForMediaType[3]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetSampleForType[4]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Object, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetActualRequestType[4]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Type, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetActualRequestType[5]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Type, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetActualResponseType[4]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Type, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetActualResponseType[5]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.Type, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String[] ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GetHelpPageSampleGenerator[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::SetHelpPageSampleGenerator[2]( [System.Web.Http]System.Web.Http.HttpConfiguration, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GetModelDescriptionGenerator[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::GetHelpPageApiModel[2]( [System.Web.Http]System.Web.Http.HttpConfiguration, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageConfigurationExtensions::ApiModelPrefix -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::UnwrapException[1]( [mscorlib]System.Exception ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::DefaultSampleObjectFactory[2]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator, [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::TryFormatJson[1]( [mscorlib]System.String ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::TryFormatXml[1]( [mscorlib]System.String ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::IsFormatSupported[3]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection, [System.Net.Http.Formatting]System.Net.Http.Formatting.MediaTypeFormatter, [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetAllActionSamples[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String>, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::WrapSampleIfString[1]( [mscorlib]System.Object ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::get_ActualHttpMessageTypes[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::set_ActualHttpMessageTypes[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,[mscorlib]System.Type> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::get_ActionSamples[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::set_ActionSamples[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,[mscorlib]System.Object> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::get_SampleObjects[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::set_SampleObjects[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::get_SampleObjectFactories[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::set_SampleObjectFactories[1]( [mscorlib]System.Collections.Generic.IList`1<[mscorlib]System.Func`3<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator,[mscorlib]System.Type,[mscorlib]System.Object>> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetSampleRequests[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetSampleResponses[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetSample[2]( [System.Web.Http]System.Web.Http.Description.ApiDescription, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetActionSample[7]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String>, [mscorlib]System.Type, [System.Net.Http.Formatting]System.Net.Http.Formatting.MediaTypeFormatter, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::GetSampleObject[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::ResolveHttpRequestMessageType[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::ResolveType[6]( [System.Web.Http]System.Web.Http.Description.ApiDescription, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String>, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection, [mscorlib]System.Collections.ObjectModel.Collection`1<System.Net.Http.Formatting.MediaTypeFormatter>& ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::WriteSampleObjectUsingFormatter[4]( [System.Net.Http.Formatting]System.Net.Http.Formatting.MediaTypeFormatter, [mscorlib]System.Object, [mscorlib]System.Type, [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue ) skipped:  KeepPublicApi option in configuration
+
+	System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Type> [ScreenWebApp]System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Type> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::<ActualHttpMessageTypes>k__BackingField -> A
+	System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::<ActionSamples>k__BackingField -> A
+	System.Collections.Generic.IDictionary`2<System.Type,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Type,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::<SampleObjects>k__BackingField -> A
+	System.Collections.Generic.IList`1<System.Func`3<ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator,System.Type,System.Object>> [ScreenWebApp]System.Collections.Generic.IList`1<System.Func`3<ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator,System.Type,System.Object>> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::<SampleObjectFactories>k__BackingField -> A
+
+
+	System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Type> [ScreenWebApp]System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Type> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::ActualHttpMessageTypes skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<ScreenWebApp.Areas.HelpPage.HelpPageSampleKey,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::ActionSamples skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IDictionary`2<System.Type,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Type,System.Object> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::SampleObjects skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IList`1<System.Func`3<ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator,System.Type,System.Object>> [ScreenWebApp]System.Collections.Generic.IList`1<System.Func`3<ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator,System.Type,System.Object>> ScreenWebApp.Areas.HelpPage.HelpPageSampleGenerator::SampleObjectFactories skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_ControllerName[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_ControllerName[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_ActionName[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_ActionName[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_MediaType[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_MediaType[1]( [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_ParameterNames[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_ParameterNames[1]( [System.Core]System.Collections.Generic.HashSet`1<[mscorlib]System.String> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_ParameterType[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_ParameterType[1]( [mscorlib]System.Type ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::get_SampleDirection[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::set_SampleDirection[1]( [mscorlib]System.Nullable`1<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::.ctor[1]( [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::.ctor[2]( [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [mscorlib]System.Type ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::.ctor[4]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String> ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::.ctor[5]( [System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String> ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<ControllerName>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<ActionName>k__BackingField -> a
+	System.Net.Http.Headers.MediaTypeHeaderValue [ScreenWebApp]System.Net.Http.Headers.MediaTypeHeaderValue ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<MediaType>k__BackingField -> A
+	System.Collections.Generic.HashSet`1<System.String> [ScreenWebApp]System.Collections.Generic.HashSet`1<System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<ParameterNames>k__BackingField -> A
+	System.Type [ScreenWebApp]System.Type ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<ParameterType>k__BackingField -> A
+	System.Nullable`1<ScreenWebApp.Areas.HelpPage.SampleDirection> [ScreenWebApp]System.Nullable`1<ScreenWebApp.Areas.HelpPage.SampleDirection> ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::<SampleDirection>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::ControllerName skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::ActionName skipped:  KeepPublicApi option in configuration
+	System.Net.Http.Headers.MediaTypeHeaderValue [ScreenWebApp]System.Net.Http.Headers.MediaTypeHeaderValue ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::MediaType skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.HashSet`1<System.String> [ScreenWebApp]System.Collections.Generic.HashSet`1<System.String> ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::ParameterNames skipped:  KeepPublicApi option in configuration
+	System.Type [ScreenWebApp]System.Type ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::ParameterType skipped:  KeepPublicApi option in configuration
+	System.Nullable`1<ScreenWebApp.Areas.HelpPage.SampleDirection> [ScreenWebApp]System.Nullable`1<ScreenWebApp.Areas.HelpPage.SampleDirection> ScreenWebApp.Areas.HelpPage.HelpPageSampleKey::SampleDirection skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::get_Src[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::set_Src[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::ToString[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ImageSample::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ImageSample::<Src>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ImageSample::Src skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::get_ErrorMessage[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::set_ErrorMessage[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::ToString[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.InvalidSample::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.InvalidSample::<ErrorMessage>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.InvalidSample::ErrorMessage skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateObject[2]( [mscorlib]System.Type, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateGenericType[3]( [mscorlib]System.Type, [mscorlib]System.Int32, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateTuple[2]( [mscorlib]System.Type, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::IsTuple[1]( [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateKeyValuePair[2]( [mscorlib]System.Type, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateArray[3]( [mscorlib]System.Type, [mscorlib]System.Int32, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateDictionary[3]( [mscorlib]System.Type, [mscorlib]System.Int32, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateEnum[1]( [mscorlib]System.Type ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateQueryable[3]( [mscorlib]System.Type, [mscorlib]System.Int32, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> b
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateCollection[3]( [mscorlib]System.Type, [mscorlib]System.Int32, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> C
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateNullable[2]( [mscorlib]System.Type, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> b
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateComplexObject[2]( [mscorlib]System.Type, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> C
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::SetPublicProperties[3]( [mscorlib]System.Type, [mscorlib]System.Object, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::SetPublicFields[3]( [mscorlib]System.Type, [mscorlib]System.Object, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.Type,[mscorlib]System.Object> ) -> a
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::GenerateObject[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Areas.HelpPage.ObjectGenerator::DefaultCollectionSize -> A
+	ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ObjectGenerator/SimpleTypeObjectGenerator ScreenWebApp.Areas.HelpPage.ObjectGenerator::SimpleObjectGenerator -> A
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [ScreenWebApp]System.Int32 ScreenWebApp.Areas.HelpPage.SampleDirection::value__ skipped:  special name
+	ScreenWebApp.Areas.HelpPage.SampleDirection [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ScreenWebApp.Areas.HelpPage.SampleDirection::Request skipped:  KeepPublicApi option in configuration
+	ScreenWebApp.Areas.HelpPage.SampleDirection [ScreenWebApp]ScreenWebApp.Areas.HelpPage.SampleDirection ScreenWebApp.Areas.HelpPage.SampleDirection::Response skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::get_Text[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::set_Text[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::GetHashCode[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::ToString[0]( ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.TextSample::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.TextSample::<Text>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.TextSample::Text skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::GetParameterDescriptions[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) -> A
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_ApiDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_ApiDescription[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_UriParameters[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_UriParameters[1]( [mscorlib]System.Collections.ObjectModel.Collection`1<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_RequestDocumentation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_RequestDocumentation[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_RequestModelDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_RequestModelDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_RequestBodyParameters[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_ResourceDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_ResourceDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_ResourceProperties[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_SampleRequests[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_SampleRequests[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue,[mscorlib]System.Object> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_SampleResponses[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_SampleResponses[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[System.Net.Http]System.Net.Http.Headers.MediaTypeHeaderValue,[mscorlib]System.Object> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::get_ErrorMessages[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::set_ErrorMessages[1]( [mscorlib]System.Collections.ObjectModel.Collection`1<[mscorlib]System.String> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::.ctor[0]( ) skipped:  special name
+
+	System.Web.Http.Description.ApiDescription [ScreenWebApp]System.Web.Http.Description.ApiDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<ApiDescription>k__BackingField -> A
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<UriParameters>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<RequestDocumentation>k__BackingField -> A
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<RequestModelDescription>k__BackingField -> A
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<ResourceDescription>k__BackingField -> a
+	System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<SampleRequests>k__BackingField -> A
+	System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<SampleResponses>k__BackingField -> a
+	System.Collections.ObjectModel.Collection`1<System.String> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<System.String> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::<ErrorMessages>k__BackingField -> A
+
+
+	System.Web.Http.Description.ApiDescription [ScreenWebApp]System.Web.Http.Description.ApiDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::ApiDescription skipped:  KeepPublicApi option in configuration
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::UriParameters skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::RequestDocumentation skipped:  KeepPublicApi option in configuration
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::RequestModelDescription skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IList`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.Generic.IList`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::RequestBodyParameters skipped:  KeepPublicApi option in configuration
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::ResourceDescription skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IList`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.Generic.IList`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::ResourceProperties skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::SampleRequests skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Net.Http.Headers.MediaTypeHeaderValue,System.Object> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::SampleResponses skipped:  KeepPublicApi option in configuration
+	System.Collections.ObjectModel.Collection`1<System.String> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<System.String> ScreenWebApp.Areas.HelpPage.Models.HelpPageApiModel::ErrorMessages skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::get_Documentation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::set_Documentation[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::get_Value[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::set_Value[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::<Documentation>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::<Name>k__BackingField -> a
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::<Value>k__BackingField -> B
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::Documentation skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::Name skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription::Value skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::get_Documentation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::set_Documentation[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::get_ModelType[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::set_ModelType[1]( [mscorlib]System.Type ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::.ctor[0]( ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::<Documentation>k__BackingField -> A
+	System.Type [ScreenWebApp]System.Type ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::<ModelType>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::<Name>k__BackingField -> a
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::Documentation skipped:  KeepPublicApi option in configuration
+	System.Type [ScreenWebApp]System.Type ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::ModelType skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription::Name skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::get_DocumentationProvider[0]( ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GetMemberName[2]( [mscorlib]System.Reflection.MemberInfo, [mscorlib]System.Boolean ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::ShouldDisplayMember[2]( [mscorlib]System.Reflection.MemberInfo, [mscorlib]System.Boolean ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::CreateDefaultDocumentation[1]( [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateAnnotations[2]( [mscorlib]System.Reflection.MemberInfo, [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateCollectionModelDescription[2]( [mscorlib]System.Type, [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateComplexTypeModelDescription[1]( [mscorlib]System.Type ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateDictionaryModelDescription[3]( [mscorlib]System.Type, [mscorlib]System.Type, [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateEnumTypeModelDescription[1]( [mscorlib]System.Type ) -> B
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateKeyValuePairModelDescription[3]( [mscorlib]System.Type, [mscorlib]System.Type, [mscorlib]System.Type ) -> a
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GenerateSimpleTypeModelDescription[1]( [mscorlib]System.Type ) -> b
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::get_GeneratedModels[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::set_GeneratedModels[1]( [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::.ctor[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GetOrCreateModelDescription[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+
+	System.Collections.Generic.IDictionary`2<System.Type,System.Func`2<System.Object,System.String>> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Type,System.Func`2<System.Object,System.String>> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::AnnotationTextGenerator -> A
+	System.Collections.Generic.IDictionary`2<System.Type,System.String> [ScreenWebApp]System.Collections.Generic.IDictionary`2<System.Type,System.String> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::DefaultTypeDocumentation -> A
+	System.Lazy`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider> [ScreenWebApp]System.Lazy`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::_documentationProvider -> A
+	System.Collections.Generic.Dictionary`2<System.String,ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription> [ScreenWebApp]System.Collections.Generic.Dictionary`2<System.String,ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::<GeneratedModels>k__BackingField -> A
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::DocumentationProvider -> dropped
+
+	System.Collections.Generic.Dictionary`2<System.String,ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription> [ScreenWebApp]System.Collections.Generic.Dictionary`2<System.String,ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator::GeneratedModels skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute::<Name>k__BackingField -> A
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelNameAttribute::Name skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::get_AnnotationAttribute[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::set_AnnotationAttribute[1]( [mscorlib]System.Attribute ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::get_Documentation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::set_Documentation[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::.ctor[0]( ) skipped:  special name
+
+	System.Attribute [ScreenWebApp]System.Attribute ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::<AnnotationAttribute>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::<Documentation>k__BackingField -> A
+
+
+	System.Attribute [ScreenWebApp]System.Attribute ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::AnnotationAttribute skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation::Documentation skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::get_Annotations[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::set_Annotations[1]( [mscorlib]System.Collections.ObjectModel.Collection`1<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::get_Documentation[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::set_Documentation[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::get_Name[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::set_Name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::get_TypeDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::set_TypeDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::.ctor[0]( ) skipped:  special name
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::<Annotations>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::<Documentation>k__BackingField -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::<Name>k__BackingField -> a
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::<TypeDescription>k__BackingField -> A
+
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterAnnotation> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::Annotations skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::Documentation skipped:  KeepPublicApi option in configuration
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::Name skipped:  KeepPublicApi option in configuration
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription::TypeDescription skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::get_Configuration[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::set_Configuration[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::.ctor[0]( ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::.ctor[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::Index[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::Api[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.Controllers.HelpController::ResourceModel[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.Controllers.HelpController::ErrorViewName -> A
+	System.Web.Http.HttpConfiguration [ScreenWebApp]System.Web.Http.HttpConfiguration ScreenWebApp.Areas.HelpPage.Controllers.HelpController::<Configuration>k__BackingField -> A
+
+
+	System.Web.Http.HttpConfiguration [ScreenWebApp]System.Web.Http.HttpConfiguration ScreenWebApp.Areas.HelpPage.Controllers.HelpController::Configuration skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider skipped:  KeepPublicApi option in configuration
+{
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetMethodNode[1]( [System.Web.Http]System.Web.Http.Controllers.HttpActionDescriptor ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetMemberName[1]( [mscorlib]System.Reflection.MethodInfo ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetTagValue[2]( [System.Xml]System.Xml.XPath.XPathNavigator, [mscorlib]System.String ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetTypeNode[1]( [mscorlib]System.Type ) -> A
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetTypeName[1]( [mscorlib]System.Type ) -> a
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetDocumentation[1]( [mscorlib]System.Reflection.MemberInfo ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetDocumentation[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetDocumentation[1]( [System.Web.Http]System.Web.Http.Controllers.HttpControllerDescriptor ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetDocumentation[1]( [System.Web.Http]System.Web.Http.Controllers.HttpActionDescriptor ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetDocumentation[1]( [System.Web.Http]System.Web.Http.Controllers.HttpParameterDescriptor ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::GetResponseDocumentation[1]( [System.Web.Http]System.Web.Http.Controllers.HttpActionDescriptor ) skipped:  external base class or interface
+
+	System.Xml.XPath.XPathNavigator [ScreenWebApp]System.Xml.XPath.XPathNavigator ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::_documentNavigator -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::TypeExpression -> A
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::MethodExpression -> a
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::PropertyExpression -> B
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::FieldExpression -> b
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.XmlDocumentationProvider::ParameterExpression -> C
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription::get_ElementDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription::set_ElementDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription::<ElementDescription>k__BackingField -> A
+
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.CollectionModelDescription::ElementDescription skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription::get_Properties[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription::set_Properties[1]( [mscorlib]System.Collections.ObjectModel.Collection`1<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription::.ctor[0]( ) skipped:  special name
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription::<Properties>k__BackingField -> A
+
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.ParameterDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription::Properties skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription::get_Values[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription::set_Values[1]( [mscorlib]System.Collections.ObjectModel.Collection`1<[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription> ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription::.ctor[0]( ) skipped:  special name
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription::<Values>k__BackingField -> A
+
+
+	System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription> [ScreenWebApp]System.Collections.ObjectModel.Collection`1<ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumValueDescription> ScreenWebApp.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription::Values skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::get_KeyModelDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::set_KeyModelDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::get_ValueModelDescription[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::set_ValueModelDescription[1]( [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::.ctor[0]( ) skipped:  special name
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::<KeyModelDescription>k__BackingField -> A
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::<ValueModelDescription>k__BackingField -> a
+
+
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::KeyModelDescription skipped:  KeepPublicApi option in configuration
+	ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription [ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.ModelDescription ScreenWebApp.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription::ValueModelDescription skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageAreaRegistration skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageAreaRegistration::get_AreaName[0]( ) skipped:  skip by property
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageAreaRegistration::RegisterArea[1]( [System.Web.Mvc]System.Web.Mvc.AreaRegistrationContext ) skipped:  external base class or interface
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageAreaRegistration::.ctor[0]( ) skipped:  special name
+
+
+	System.String [ScreenWebApp]System.String ScreenWebApp.Areas.HelpPage.HelpPageAreaRegistration::AreaName skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.BundleConfig skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.BundleConfig::RegisterBundles[1]( [System.Web.Optimization]System.Web.Optimization.BundleCollection ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.BundleConfig::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.FilterConfig skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.FilterConfig::RegisterGlobalFilters[1]( [System.Web.Mvc]System.Web.Mvc.GlobalFilterCollection ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.FilterConfig::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.RouteConfig skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.RouteConfig::RegisterRoutes[1]( [System.Web]System.Web.Routing.RouteCollection ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.RouteConfig::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.WebApiConfig skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.WebApiConfig::Register[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.WebApiApplication skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.WebApiApplication::Application_Start[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.WebApiApplication::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Controllers.HomeController skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Controllers.HomeController::Index[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.HomeController::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Controllers.StatisticsController skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Controllers.StatisticsController::GetSalesData[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.StatisticsController::GetPieData[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.StatisticsController::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Controllers.ValuesController skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::Get[0]( ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::Get[1]( [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::Post[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::Put[2]( [mscorlib]System.Int32, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::Delete[1]( [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Controllers.ValuesController::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ApiDescriptionExtensions skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ApiDescriptionExtensions::GetFriendlyId[1]( [System.Web.Http]System.Web.Http.Description.ApiDescription ) skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfig skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.HelpPageConfig::Register[1]( [System.Web.Http]System.Web.Http.HttpConfiguration ) skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider::GetDocumentation[1]( [mscorlib]System.Reflection.MemberInfo ) skipped:  KeepPublicApi option in configuration
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider::GetDocumentation[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+}
+
+[ScreenWebApp]ScreenWebApp.Conmmon.DbContext skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Conmmon.DbContext::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription::.ctor[0]( ) skipped:  special name
+}
+
+[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription skipped:  KeepPublicApi option in configuration
+{
+
+	[ScreenWebApp]ScreenWebApp.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription::.ctor[0]( ) skipped:  special name
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+

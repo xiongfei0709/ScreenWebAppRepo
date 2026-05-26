@@ -1,59 +1,37 @@
 <?xml version='1.0'?>
 <Obfuscator>
-  <!-- ==================== 路径配置 ==================== -->
-  <Var name="InPath" value=".\ScreenWebApp\bin" />
-  <Var name="OutPath" value=".\Obfuscated_Output" />
-
-  <!-- ==================== 核心增强配置 ==================== -->
-  <!-- 是否保持公共API不变（设为false可混淆公开方法名，但可能影响反射/XAML绑定） -->
-  <Var name="KeepPublicApi" value="false" />
-  <!-- 混淆私有成员（必须开启） -->
-  <Var name="HidePrivateApi" value="true" />
-  <!-- 字符串常量加密（核心防护，将明文转为加密调用） -->
-  <Var name="HideStrings" value="true" />
-  <!-- 使用Unicode不可见字符命名（大幅降低可读性，反编译后显示为空白或乱码） -->
-  <Var name="UseUnicodeNames" value="true" />
-  <!-- 复用命名：不同类型可使用相同混淆名，增加分析难度 -->
-  <Var name="ReuseNames" value="true" />
-  <!-- 重命名字段（必须开启） -->
-  <Var name="RenameFields" value="true" />
-  <!-- 重命名属性 -->
-  <Var name="RenameProperties" value="true" />
-  <!-- 重命名事件 -->
-  <Var name="RenameEvents" value="true" />
-  <!-- 重新生成调试符号（便于本地调试，发布时可设为false） -->
-  <Var name="RegenerateDebugInfo" value="false" />
-
-  <!-- ==================== 控制流混淆（核心增强）==================== -->
-  <!-- 控制流混淆：将条件分支转化为状态机形式，极大增加逆向难度 -->
-  <Var name="ControlFlow" value="true" />
-  <!-- 控制流混淆级别（可选值：0-5，越高混淆越复杂，默认2） -->
-  <Var name="ControlFlowLevel" value="3" />
-
-  <!-- ==================== 高级选项 ==================== -->
-  <!-- 是否抑制ILDasm反编译（使ILDasm工具无法打开程序集） -->
-  <Var name="SuppressIldasm" value="true" />
-  <!-- 是否移除调试信息（增加反编译难度） -->
-  <Var name="RemoveDebugInfo" value="true" />
-
-  <!-- ==================== 要混淆的程序集 ==================== -->
-  <Module file="$(InPath)\ScreenWebApp.dll" />
-
-  <!-- ==================== 排除规则（避免运行时错误）==================== -->
-  <!-- 排除系统命名空间 -->
-  <SkipType name="System.*" />
-  <SkipType name="Microsoft.*" />
-  
-  <!-- 排除程序入口点（必须保留） -->
-  <SkipMethod name="YourApp.Program::Main(System.String[])" />
-  
-  <!-- 排除需要反射调用的类型（示例） -->
-  <!-- <SkipType name="YourApp.Config.Settings" /> -->
-  
-  <!-- 排除需要序列化的类型（如果使用JsonSerializer等） -->
-  <!-- <SkipType name="YourApp.Models.*" /> -->
-
-  <!-- ==================== 程序集搜索路径（.NET Core/5+必须）==================== -->
-  <AssemblySearchPath path="C:/Program Files/dotnet/shared/Microsoft.WindowsDesktop.App/8.0.0" />
-  <AssemblySearchPath path="C:/Program Files/dotnet/shared/Microsoft.NETCore.App/8.0.0" />
+    <!-- ========== 路径配置 ========== -->
+    <Var name="InPath" value=".\ScreenWebApp\bin" />
+    <Var name="OutPath" value=".\Obfuscated_Output" />
+    
+    <!-- ========== 混淆控制 ========== -->
+    <Var name="KeepPublicApi" value="true" />
+    <Var name="HidePrivateApi" value="true" />
+    <Var name="HideStrings" value="true" />
+    <Var name="UseUnicodeNames" value="true" />
+    <Var name="ReuseNames" value="true" />
+    <Var name="RenameFields" value="true" />
+    <Var name="RenameProperties" value="true" />
+    <Var name="RenameEvents" value="true" />
+    <Var name="ControlFlow" value="true" />
+    <Var name="SuppressIldasm" value="true" />
+    
+    <!-- ========== 要混淆的程序集 ========== -->
+    <Module file="$(InPath)\ScreenWebApp.dll" />
+    
+    <!-- ========== 排除规则 ========== -->
+    <!-- 1. 排除 Global.asax 对应的应用程序类（必须！）-->
+    <SkipType name="ScreenWebApp.WebApiApplication" />
+<SkipType name="ScreenWebApp.Controllers.*" />
+    
+    <!-- 2. 排除系统命名空间 -->
+    <SkipType name="System.*" />
+    <SkipType name="Microsoft.*" />
+    
+    <!-- 3. 如果需要序列化的模型类，也建议排除 -->
+    <!-- <SkipType name="ScreenWebApp.Models.*" /> -->
+    
+    <!-- ========== .NET Framework 4.8 程序集搜索路径 ========== -->
+    <AssemblySearchPath path="C:/Windows/Microsoft.NET/Framework64/v4.0.30319" />
+    
 </Obfuscator>
